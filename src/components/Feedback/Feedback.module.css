@@ -1,0 +1,14 @@
+.button {
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #00ffff;
+}
+
+.button:not(:last-child) {
+  margin-right: 10px;
+}
